@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR4d0155/v1
+canonical_location: https://kanripo.org/bkk/KR4d0155/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 簡齋詩外集
+  date: '2015-09-11 10:13:17.924270'
+  source:
+    repository: kanripo
+    path: KR4d0155
+  base_edition: SBCK
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: SBCK
+  label: 【四部叢刊】
+assets:
+  parts:
+  - {seq: 0, filename: KR4d0155_000.yaml, hash: 'sha256:edf0e7f67a83206bad433da40a30e98acd1ca538e017f8ddc999d46fe31adc09'}
+  - {seq: 1, filename: KR4d0155_001.yaml, hash: 'sha256:c918af7a2ecf829251b25c57c2bf7585ada68757b19d390eeb3be4336bfb1c1e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4d0155_000.markers.yaml, hash: 'sha256:9563cda4bbce9d22ccfa459fe21be55de49447fd24c0467b18b55794a31b972a'}
+  - {seq: 1, role: markers, filename: assets/KR4d0155_001.markers.yaml, hash: 'sha256:7206a51df6bde1ad8436096e2026ab8186c6413eaa8ca69a60102bc23f4862fe'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4d0155_SBCK_000-1a
+    span:
+    - body
+    - 0
+    - 627
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4d0155_SBCK_001-1a
+    span:
+    - body
+    - 0
+    - 6095
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:105644a8d94c811da8c0178521aa97e3953c55abed9f8ea5bcc4ae6dee9404a8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
