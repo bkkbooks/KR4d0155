@@ -20,11 +20,11 @@ editions:
   label: 【四部叢刊】
 assets:
   parts:
-  - {seq: 0, filename: KR4d0155_000.yaml, hash: 'sha256:edf0e7f67a83206bad433da40a30e98acd1ca538e017f8ddc999d46fe31adc09'}
-  - {seq: 1, filename: KR4d0155_001.yaml, hash: 'sha256:c918af7a2ecf829251b25c57c2bf7585ada68757b19d390eeb3be4336bfb1c1e'}
+  - {seq: 0, filename: KR4d0155_000.yaml, hash: 'sha256:4cc59151eb8d9fd90828903a37f1d16d80c5e3795049177c2ab8d147d107f827'}
+  - {seq: 1, filename: KR4d0155_001.yaml, hash: 'sha256:6b277ec614b00a9e2025df9b9cb1c1d4fcbc0d44b0ae3be5f5ccab2632bc0b7a'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR4d0155_000.markers.yaml, hash: 'sha256:9563cda4bbce9d22ccfa459fe21be55de49447fd24c0467b18b55794a31b972a'}
-  - {seq: 1, role: markers, filename: assets/KR4d0155_001.markers.yaml, hash: 'sha256:7206a51df6bde1ad8436096e2026ab8186c6413eaa8ca69a60102bc23f4862fe'}
+  - {seq: 0, role: markers, filename: assets/KR4d0155_000.markers.yaml, hash: 'sha256:8f20f105baed7b977f99407de7adbd99930bdb790d2332e42f8016c3c4c77287'}
+  - {seq: 1, role: markers, filename: assets/KR4d0155_001.markers.yaml, hash: 'sha256:4848a8c9d092c9b9c050e0856de9f3da7430de6ff3ac4d2db3ec6ec2fcf13190'}
 table_of_contents:
 - ref:
     seq: 0
@@ -46,7 +46,4 @@ table_of_contents:
   label: juan 001
   type: section
   level: 1
-hash: sha256:105644a8d94c811da8c0178521aa97e3953c55abed9f8ea5bcc4ae6dee9404a8
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:41a014cc961ea9b4468dae7e791f024fe4e9e058312f7c9e23e6c791045aa06e
